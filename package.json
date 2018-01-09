@@ -2,7 +2,10 @@
   "name": "boboyangmoumou",
   "version": "1.0.0",
   "description": "this is node project",
-  "main": "index.js",
+  "main": "src/app.js",
+  "bin": {
+    "alldoor": "bin/alldoor"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +18,15 @@
   "bugs": {
     "url": "https://github.com/boboyangmoumou/alldoor/issues"
   },
-  "homepage": "https://github.com/boboyangmoumou/alldoor#readme"
+  "homepage": "https://github.com/boboyangmoumou/alldoor#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "handlebars": "^4.0.11",
+    "yargs": "^10.0.3"
+  }
 }
